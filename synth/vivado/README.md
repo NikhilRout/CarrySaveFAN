@@ -10,8 +10,9 @@ Max Path Delay: 10ns
 | Design | Worst Negative Slack (WNS) | Total Negative Slack (TNS) | LUTs |
 | --- | --- | --- | --- |
 | RedTree | -1.297 | -53.651 | 1274 |
-| RedTreeFAN |  |  |  |
+| SigmaBaseFAN | 0.133 | 0 | 953 |
 | CarrySaveFAN | -1.443 | -94.021 | 1565 |
 
 ![RedTee_Imp](synth\vivado\img\RedTree_Imp.png "RedTree Implementation Report")
+![SigmaBaseFAN_Imp](synth\vivado\img\SigmBaseFAN_Imp.png "SigmBaseFAN Implementation Report")
 ![CarrySaveFAN_Imp](synth\vivado\img\CarrySaveFAN_Imp.png "CarrySaveFAN Implementation Report")

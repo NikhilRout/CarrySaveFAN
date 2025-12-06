@@ -1,19 +1,11 @@
-# SIGMA-CarrySaveFAN
+# CarrySaveFAN
 
-CSA reduction based microarchitecture modification of the Forward-Adder-Network in the SIGMA DNN Accelerator that supports multi-vector, multi-operand addition within the same adder instantiation for sparse and irregular GEMM workloads.
+Microarchitecture design space exploration of the [SIGMA DNN Accelerator's](https://ieeexplore.ieee.org/document/9065523/) Forward-Adder-Network (FAN) that enables supporting multi-vector, multi-operand addition within the same PE for sparse and irregular GEMM workloads.
 
-## TODO:
+## Modifying a Carry Save Adder to function as a FAN
 
-- testbench(es)
-- readme detailed report
-- link sigma arxiv (and paper citation)
-- CarrySaveFAN arch diag
-- RedTreeFAN arch diag
-- Detailed README -- tradeoffs/caveats
-- Signed Integer Support
-- Reverse 3:2 compressors
-- FP32 support
-- CMake/Verilator environment setup
-- Sparsity support (gating?)
-- SIGMA integration
-- Benchmark/synth analysis sweep over N and Ws
+![Carry Save FAN Diagram](docs\arch_diag\CarrySaveFAN.drawio.png "Carry Save FAN Diagram")
+
+- For a N-operand W-bit addition, time complexity should reduce from Reduction Tree based uarch's[O(log2(N)) * O(log2(W))] to approximately [O(log2(N)) + O(log2(W))]
+- Each vector groups sums (output) are already in the same order they arrived in
+- Don't need Flip-Flops at every MUX
