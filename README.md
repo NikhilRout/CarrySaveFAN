@@ -4,7 +4,7 @@ Microarchitecture design space exploration of the [SIGMA DNN Accelerator's](http
 
 ## Modifying a Carry Save Adder to function as a FAN
 
-![Carry Save FAN Diagram](docs\arch_diag\CarrySaveFAN.drawio.png "Carry Save FAN Diagram")
+![Carry Save FAN Diagram](docs/arch_diag/CarrySaveFAN.png "Carry Save FAN Diagram")
 
 - For a N-operand W-bit addition, time complexity should reduce from Reduction Tree based uarch's[O(log2(N)) * O(log2(W))] to approximately [O(log2(N)) + O(log2(W))]
 - Each vector groups sums (output) are already in the same order they arrived in

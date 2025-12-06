@@ -13,5 +13,5 @@ Max Path Delay: 10ns
 | SigmaBaseFAN | -10.288 | -9.351 | -1.784 | 871 |
 | CarrySaveFAN | -15.243 | -14.037 | -4.39 | 863 |
 
-![SigmaBaseFAN_RTL_Viewer](synth\quartus\img\SigmaBaseFAN_RTL_Viewer.png "SigmaBaseFAN_RTL_Viewer")
-![CarrySaveFAN_RTL_Viewer](synth\quartus\img\CarrySaveFAN_RTL_Viewer.png "CarrySaveFAN_RTL_Viewer")
+![SigmaBaseFAN_RTL_Viewer](synth/quartus/img/SigmaBaseFAN_RTL_Viewer.png "SigmaBaseFAN_RTL_Viewer")
+![CarrySaveFAN_RTL_Viewer](synth/quartus/img/CarrySaveFAN_RTL_Viewer.png "CarrySaveFAN_RTL_Viewer")
