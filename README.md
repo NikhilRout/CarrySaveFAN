@@ -6,6 +6,6 @@ Microarchitecture design space exploration of the [SIGMA DNN Accelerator's](http
 
 ![Carry Save FAN Diagram](docs/arch_diag/CarrySaveFAN.png "Carry Save FAN Diagram")
 
-- For a N-operand W-bit addition, time complexity should reduce from Reduction Tree based uarch's[O(log2(N)) * O(log2(W))] to approximately [O(log2(N)) + O(log2(W))]
-- Each vector groups sums (output) are already in the same order they arrived in
+- For a N-operand W-bit addition, time complexity should reduce from Reduction Tree based uarch's [O(log2(N)) * O(log2(W))] to approximately [O(log2(N)) + O(log2(W))]
+- Vector groups sums (output) are already in the same order they arrived in
 - Don't need Flip-Flops at every MUX
